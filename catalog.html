@@ -14,7 +14,8 @@
          <ul>
             <li>
                <form class="search-form">
-                  <p><input type="search" name="q" placeholder="Поиск"></p>
+                  <label class="visually-hidden" for="search">Поиск</label>
+                  <p><input type="search" name="search" placeholder="Поиск"></p>
                </form>
             </li>
             <li>
@@ -151,8 +152,12 @@
                      <span class="real-price">25500 Р.</span>
                   </p>
                   <p class="button-check">
-                     <input type="submit" value="Купить">
-                     <input type="submit" value="В Закладки">
+                     <label for="buy">
+                     <input type="submit" id="buy" value="Купить">
+                     </label>
+                     <label for="bookmarks">
+                     <input type="submit" id="bookmarks" value="В Закладки">
+                     </label>
                   </p>
                </li>
                <li class="catalog-item">
@@ -265,9 +270,9 @@
          </ul>
          <p class="coopyright">© 2010–2017 Компания «Техномарт» Все права защищены</p>
          <div class="footer-social">
-            <a class="social-button" href="#">Вконтакте</a>
-            <a class="social-button" href="#">Фейсбук</a>
-            <a class="social-button" href="#">Инстаграм</a>
+            <a class="social-button" href="#" aria-label="Вконтакте">Вконтакте</a>
+            <a class="social-button" href="#" aria-label="Фейсбук">Фейсбук</a>
+            <a class="social-button" href="#" aria-label="Инстаграм">Инстаграм</a>
          </div>
          <p class="feedback">
             <b>Обратная связь:</b>mail@htmlacademy.ru
