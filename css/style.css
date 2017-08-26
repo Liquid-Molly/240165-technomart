@@ -1,7 +1,422 @@
 .body {
-	font-family: "PT Sans";
+	font-family: "Cuprum", sans-serif;
 	line-height: 24 px;
 	font-size: 13 px;
-	color: black;
 	font-weight: normal;
+	color: #00000;
+
+	background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header-line,
+.block-about,
+.site-navigation,
+.user-navigation,
+.list,
+.footer-menu,
+.footer-promo-block {
+list-style: none;
+}
+
+.main-header-line {
+	line-height: 17 px;
+	font-size: 18 px;
+	color: #ffffff;
+	background-color: #33445a;
+	
+}
+
+.main-header-logo {
+	line-height: 24 px;
+	font-size: 24 px;
+	color: #ffffff;
+	text-transform: uppercase;
+ 	
+ 	background-color: #ff5357;
+}
+
+.main-header-logo a:hover {
+background-color: #518534;
+}
+
+.main-header-logo a:focus {
+background-color: #ba2732;
+}
+
+.bookmarks a,
+.basket a {
+color: #ffffff;
+}
+
+.bookmarks a:hover,
+.basket a:hover,
+.site-navigation a:hover {
+background-color: #212a3a; 
+} 
+
+.bookmarks a:focus,
+.basket a:focus
+.site-navigation a:focus {
+background-color: #161d29; 
+} 
+
+.order a {
+background-color: #63a63e;
+color: #ffffff;
+}
+
+.order a:hover {
+background-color: #5fbb2d;
+}
+
+.order a:focus {
+background-color: #518534;	
+}
+
+.block-1 {
+	background-color: #f3f7f9;
+}
+
+.about {
+	line-height: 23 px;
+	font-size: 16 px;
+	font-style: italic;
+	color: #ff5357;
+}
+
+.tel {
+	line-height: 18 px;
+	font-size: 21 px;
+	color: #ff5357;
+}
+
+.header-contacts {
+	line-height: 24 px;
+	font-size: 14 px;
+	color: #3d546e;
+}
+
+.user-navigation a {
+	line-height: 18 px;
+	font-size: 21 px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.user-navigation a:hover {
+	color: #ee3643;
+}
+
+.user-navigation a:focus {
+    color: #c5c5c5;
+}
+
+.site-navigation a {
+	color: #ffffff;
+	background-color: #33445a;
+}
+
+.block-2,
+.block-3 {
+	background-color: #ffffff;
+}
+
+.promo-block-list {
+	list-style: none;
+}
+
+.promo-image1,
+.promo-image2,
+.promo-image3,
+.promo-image4,
+.promo-image5 {
+	width: 300;
+	height: 124;	
+	line-height: 30 px;
+	font-size: 24 px;
+	text-transform: uppercase;
+}
+
+.promo-image1 {
+		background-color: #ffbf47;
+}
+
+.promo-image2 {
+	background-color: #3bbce3;
+}
+
+.promo-image3 {
+	background-color: #dc91d8;
+}
+
+.promo-image4 {
+	background-color: #8ed78f;
+}
+
+.promo-image5 {
+	background-color: #ffc047;
+}
+
+.promo-button {
+  font: inherit;
+
+  color: #ffffff;
+ vertical-align: middle;
+  border-radius: 3px;
+  background: #e5e5e5;
+} 
+
+a.promo-button:hover { 
+	background: #cccccc;
+ }
+
+a.promo-button:active {
+  background: #b2b2b2;
+}
+
+.gallery-content h3 {
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #000000;
+	text-transform: uppercase;
+}
+
+.p-gallery-content {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	background-color: #000000;
+	}
+
+.gallery-content {
+background-color: #ffffff;
+border: ;
+}
+
+.gallery-button {
+  font: inherit;
+
+  color: #ffffff;
+  vertical-align: middle;
+  border-radius: 3px;
+  background: #ee3643;
+} 
+
+a.gallery-button:hover { 
+	background: #cca2c37;
+ }
+
+a.gallery-button:active {
+  background: #ba2732;
+}
+
+.popular-product h1,
+.popular-manufacturers h1 {
+	font-size: 30px;
+	line-height: 30px;
+		color: #3d546e;
+	background-color: #f9f5f0;
+	text-transform: uppercase;
+}
+
+.special-button a {
+	color: #ffffff;
+	background-color: #ff5357;
+}
+
+.popular-product-list {
+	list-style: none;
+}
+
+.product-list {
+	width: 222;
+	height: 318;	
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+}
+
+.product-list:hover {
+	box-shadow: 0 10px 25px rgba (41, 52, 73, 0.5);
+}
+
+.p-manufacturers-list {
+	list-style: none;
+}
+
+.manufacturers-list {
+	width: 222;
+	height: 147;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+}
+
+.manufacturers-list:hover {
+	box-shadow: 0 10px 25px rgba (41, 52, 73, 0.5);
+}
+
+.manufacturers-list:activ {
+	box-shadow: 0 4px 10px rgba (41, 52, 73, 0.5);
+}
+
+.gallery-service {
+	background-color: #f4f7f9;
+}
+
+.gallery-service h1 {
+	font-size: 30px;
+	line-height: 24px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.about-gallery-service {
+	font-family: PT Sans;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.service-button:hover {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+	color: #ffffff;
+	background-color: #293449;
+}
+
+.service-button:activ {
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+	color: #32425c;
+	background-color: #ffffff;
+}
+
+.gallery-content-service h3 {
+	font-size: 36px;
+	line-height: 24px;
+	color: #3d546e;
+}
+
+.p-gallery-content-service {
+	font-family: PT Sans;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.information h1,
+.contacts h1 {
+	font-size: 30px;
+	line-height: 24px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+ .block-information {
+ 	font-family: PT Sans;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+ }
+
+ .list {
+  	font-family: PT Sans;
+	font-size: 18px;
+	line-height: 20px;
+	color: #000000;	
+ }
+
+.b-information a {
+	color: inherit;
+
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #ff5357;
+
+}
+
+.map {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #ff5357;
+}
+
+.block-4 {
+	background-color: #3d546e;
+}
+
+.footer-contacts {
+	font-size: 18px;
+	line-height: 24px;
+	color: #f1f5f7;
+	}
+
+.footer-menu a {
+	color: inherit;
+
+	font-size: 18px;
+	line-height: 24px;
+	color: #f1f5f7;
+	}
+
+.footer-menu a:hover {
+border-bottom: 1px solid #f1f5f7;
+}
+
+.footer-menu a:activ {
+opacity: 0.5;
+}
+
+.footer-promo-block a {
+	color: inherit;
+
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffda96;	
+}
+
+.footer-promo-block a:hover {
+border-bottom: 1px solid #ffda96;
+}
+
+.footer-promo-block a:activ {
+opacity: 0.5;
+}
+
+.block-5 {
+	background-color: #33445a;
+}
+
+.coopyright {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+.feedback {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+.feedback a {
+	color: inherit;
+	color: #ffda96;
+}
+
+.feedback a:hover {
+border-bottom: 1px solid #ffda96;
+}
+
+.feedback a:activ {
+color: #ee3643;
 }
