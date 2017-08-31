@@ -2,10 +2,10 @@
 <html lang="ru">
    <head>
       <meta charset="utf-8">
-      <link href="css/style.css" rel="stylesheet">
       <title>Техномаркет</title>
-      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
       <link href="css/normalize.css" rel="stylesheet">
    </head>
    <body>
@@ -23,17 +23,17 @@
                </form>
             </li>
             <li>
-               <p class="bookmarks">
-                  <a class="button" href="#">Закладки:0</a>
+               <p class="bookmarks-b">
+                  <a class="bookmarks" href="#">Закладки:0</a>
                </p>
             </li>
             <li>
-               <p class="basket">
-                  <a class="button" href="#">Корзина:0</a>
+               <p class="basket-b">
+                  <a class="basket" href="#">Корзина:0</a>
                </p>
             <li>
-               <p class="order">
-                  <a class="button" href="#">Оформить заказ:</a>
+               <p class="order-b">
+                  <a class="order" href="#">Оформить заказ:</a>
                </p>
          </ul>
          <div class="block-1">
@@ -74,85 +74,57 @@
          <div="block-2">
          <section class="promo-block">
          <h2 class="visually-hidden">Промо-блок</h2>
-         <ul class="promo-block-list">
-         <li class="promo-list">
+         <div class="promo promo-list1">
             <h3>Материалы</h3>
-            <p class="promo-image1">
-               <img width="48" height="67" src="img/icon-1.svg" alt="Материалы">
+            <p>
+               <a href="#" class="promo-button">На любой вкус</a>
             </p>
-            <p class="promo-button">
-            <form action="/example/">
-               <button class="promo-button" type="button">На любой вкус</button>
-            </form>
-            </p>
-         </li>
-         <li class="promo-list">
+         </div>
+         <div class="promo promo-list2">
             <h3>Инструменты</h3>
-            <p class="promo-image2">
-               <img width="76" height="63" src="img/icon-2.svg" alt="Инструменты">
+            <p>
+               <a href="#" class="promo-button">На все случаи</a>
             </p>
-            <p class="promo-button">
-            <form action="/example/">
-               <button class="promo-button" type="button">На все случаи</button>
-            </form>
-            </p>
-         </li>
-         <li class="promo-list">
+         </div>
+         <div class="promo promo-list3">
             <h3>Техника</h3>
-            <p class="promo-image3">
-               <img width="80" height="64" src="img/icon-3.svg" alt="Техника">
+            <p>
+               <a href="#" class="promo-button">Для стройки</a>
             </p>
-            <p class="promo-button">
-            <form action="/example/">
-               <button class="promo-button" type="button">Для стройки</button>
-            </form>
-            </p>
-         </li>
-         <li class="promo-list">
+         </div>
+         <div class="promo promo-list4">
             <h3>Скидки 50%</h3>
-            <p class="promo-image4">
-               <img width="60" height="75" src="img/icon-4.svg" alt="Скидки 50%">
+            <p>
+               <a href="#" class="promo-button">на 350 товаров</a>
             </p>
-            <p class="promo-button">
-            <form action="/example/">
-               <button class="promo-button" type="button">на 350 товаров</button>
-            </form>
-            </p>
-         </li>
-         <li class="promo-list">
+         </div>
+         <div class="promo promo-list5">
             <h3>Доставка</h3>
-            <p class="promo-image5">
-               <img width="80" height="65" src="img/icon-5.svg" alt="Доставка">
+            <p>
+               <a href="#" class="promo-button">Бесплатно</a>
             </p>
-            <p class="promo-button">
-            <form action="/example/">
-               <button class="promo-button" type="button">Бесплатно</button>
-            </form>
-            </p>
-         </li>
+         </div>
          <div class="gallery">
-            <section class="gallery-content">
-               <h3>Перфораторы</h3>
-               <p class="p-gallery-content">Настоящие мужские игрушки</p>
-               <img src="img/slider-1.jpg" width="620" height="266" alt="Перфораторы">
-               <p class="gallery-button">
-               <form action="/example/">
-                  <button class="gallery-button" type="button">Открыть каталог</button>
-               </form>
-               </p>
-            </section>
-            <section class="gallery-content">
-               <h3>Дрели</h3>
-               <p class="p-gallery-content">Соседям на радость</p>
-               <img src="img/slider-2.jpg" width="620" height="266" alt="Дрели">
-               <p class="gallery-button">
-               <form action="/example/">
-                  <button class="gallery-button" type="button">Открыть каталог</button>
-               </form>
-               </p>
-            </section>
-            <span class="button gallery-button gallery-button-back"><img src="img/icon-left.svg" width="30" height="46" alt="back"></span>
+            <img src="img/slider-1.jpg" width="620" height="266" alt="Перфораторы">
+            <selection class="gallery-content">
+            <h3>Перфораторы</h3>
+            <p class="p-gallery-content">Настоящие мужские игрушки</p>
+            <a href="#" class="btn-gallery-content">Открыть каталог</a>
+         </div>
+         <div class="number-pagination">
             <span class="button gallery-button gallery-button-next"><img src="img/icon-right.svg" width="30" height="46" alt="next"></span>
+         </div>
+         </div>
+         <div class="gallery">
+            <img src="img/slider-2.jpg" width="620" height="266" alt="Дрели">
+            <selection class="gallery-content">
+            <h3>Перфораторы</h3>
+            <p class="p-gallery-content">Соседям на радость</p>
+            <a href="#" class="btn-gallery-content" name="button">Открыть каталог</a>
+         </div>
+         <div class="number-pagination">
+            <span class="button gallery-button gallery-button-back"><img src="img/icon-left.svg" width="30" height="46" alt="back"></span>
+         </div>
          </div>
          <section class="popular-product">
             <h1>Популярные товары</h1>
@@ -279,20 +251,16 @@
             <h1>Сервисы</h1>
             <p class="about-gallery-service">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
             <section class="gallery-content-service">
-               <p class="service-button">
-               <form action="/example/">
-                  <button class="service-button" type="button">Доставка</button>
-               </form>
+               <p class="service-button-b">
+                  <a class="service-button" href="#">Доставка</a>
                </p>
                <h3>Доставка</h3>
                <p class="p-gallery-content-service">Мы с удовольствием доставим ваш товар прямо  к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем поднимая его на этаж!</p>
                <img src="img/car.png" width="468" height="261" alt="Машина">
             </section>
             <section class="gallery-content-service">
-               <p class="service-button">
-               <form action="/example/">
-                  <button class="service-button" type="button">Гарантия</button>
-               </form>
+               <p class="service-button-b">
+                  <a class="service-button" href="#">Гарантия</a>
                </p>
                <h3>Гарантия</h3>
                <p class="p-gallery-content-service">Если купленный у нас товар поломается или заискрит, 
@@ -302,10 +270,8 @@
                <img src="img/medal.png" width="389" height="283" alt="Гарантия">
             </section>
             <section class="gallery-content-service">
-               <p class="service-button">
-               <form action="/example/">
-                  <button class="service-button" type="button">Кредит</button>
-               </form>
+               <p class="service-button-b">
+                  <a class="service-button" href="#">Кредит</a>
                </p>
                <h3>Кредит</h3>
                <p class="p-gallery-content-service">Залезть в долговую яму стало проще! 
@@ -325,7 +291,7 @@
                   <li> - ЖелДорЭкспедиция</li>
                </ul>
                <p class="b-information">
-                  <a href="#">Подробнее о компании</a> 
+                  <a class="info" href="#">Подробнее о компании</a> 
                </p>
             </section>
             <section class="contacts">
@@ -333,7 +299,7 @@
                <p class="block-information">Вы можете забрать товар сами,  заехав в наш офис:</p>
                <p>
                   <a href="map.html"></a>
-                  <input class="map" type="button" name="text" id="map" value="Заблудились? Напишите нам">
+                  <a class="map" href="#">Заблудились? Напишите нам"</a>
                </p>
             </section>
          </div>
